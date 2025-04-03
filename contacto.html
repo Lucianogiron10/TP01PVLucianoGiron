@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opinion</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: #0fa6b8;
+            background-color: rgb(204, 229, 255);
+        }
+        form{
+            text-align: center;
+            margin:20px;
+        }
+        a{
+            text-align: center;
+            border: 4px solid white;
+        }
+    </style>
 </head>
 <body>       
      <h1> Opina del sitio web </h1>
-     <div>
-        <h3>Escribe tu direccion de correo electronico</h3>
-        <textarea name="" id=""></textarea>
+     <form action="">
+        <h3>Ingresa tu correo electronico</h3>
+        <input type="email" required>
         <h3>Dejamos tu opinion</h3>
-        <textarea name="" id=""></textarea>
-        <button>Enviar respuesta</button>
-    </div>
-    <a href="index.html">Volver a la pagina anterior</a>
+        <input type="text" required>
+        <input type="submit">
+     </form>
+    <a href="index.html" target="_blank">Volver a la pagina anterior</a>
+
 </body>
 </html>
